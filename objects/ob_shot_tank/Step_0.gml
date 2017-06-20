@@ -1,5 +1,12 @@
+/// @description Move, LifeTime expiration
 
-speed = moveSpeed
-//show_debug_message('Shot says: x=' +string(x)+'; y=' +string(y)+'; alarm=' +string(alarm[0]))
+speed = sc_ppSec_ppFrame(moveSpeed)
+
+// lifeTime expiration
+lifeTime -= dTime
+if lifeTime<=0 
+	instance_destroy()
+
+
 
 

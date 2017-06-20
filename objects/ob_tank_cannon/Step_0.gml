@@ -1,9 +1,11 @@
-/// @description   Check if parent alive
+/// @description Create shot from preloaded
+
+// Check if parent alive
 
 if not instance_exists(parent) exit;
 
 
-///  Do shot
+//  Do shot
 
 if idea == "shot"
 if object_is_ancestor(parentPart.object_index, ob_head) {
@@ -22,7 +24,6 @@ if object_is_ancestor(parentPart.object_index, ob_head) {
         x = other.x
         y = other.y
         lifeTime = (head.fireDist+75) / moveSpeed
-        alarm[0] = lifeTime
         direction = head.image_angle+(other.sprayFactor*0.5-random(other.sprayFactor))
         teamId = other.parent.teamId
         unitId = other.parent

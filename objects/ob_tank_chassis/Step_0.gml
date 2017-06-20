@@ -1,4 +1,6 @@
-/// @description   Check if parent alive
+/// @description Process behaviour
+
+/// Check if parent alive
 
 if not instance_exists(parent) exit;
 
@@ -27,18 +29,8 @@ if idea == "goto" {
   }  
 } 
 
-/*else
-
-if idea = 'hand' {
-// manual control
-}
-*/
 
 
-
-
-
-/* */
 ///  Behaviour
 
 if parent == noone exit
@@ -69,14 +61,9 @@ if (abs(moveSpeed) > abs(tgSpeed))
 if angle<0   then angle = angle+360  
 if angle>360 then angle = angle-360
     
-parent.speed = moveSpeed
+parent.speed = sc_ppSec_ppFrame(moveSpeed)
 parent.direction   = angle
 parent.image_angle = angle 
 image_angle = angle
 image_speed = moveSpeed / 4
 
-
-  
-
-/* */
-/*  */

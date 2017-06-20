@@ -249,7 +249,7 @@
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0",
         "clearDisplayBuffer": true,
-        "clearViewBackground": true,
+        "clearViewBackground": false,
         "enableViews": true,
         "inheritViewSettings": false
     },

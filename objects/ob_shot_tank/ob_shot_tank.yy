@@ -5,16 +5,6 @@
     "name": "ob_shot_tank",
     "eventList": [
         {
-            "id": "21b9e1f0-f9f2-461d-97a2-966983a9cdae",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "81b8e088-6418-4948-9269-314530096bd4"
-        },
-        {
             "id": "b932f422-42a7-48bf-a09a-a9d1c8e19c47",
             "modelName": "GMEvent",
             "mvc": "1.0",
