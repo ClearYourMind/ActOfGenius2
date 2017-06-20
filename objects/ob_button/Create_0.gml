@@ -1,4 +1,5 @@
-action_inherited();
+event_inherited();
+///@desc Init
 caption = "button"
 textcolor = c_black
 

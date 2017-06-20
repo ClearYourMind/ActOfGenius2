@@ -1,5 +1,5 @@
-action_inherited();
-/// Init properties
+event_inherited();
+///@desc Init properties
 
 tgSpeed = 0
 tgAngle = 0

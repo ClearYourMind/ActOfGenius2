@@ -1,5 +1,5 @@
-action_inherited();
-/// Init properties
+///@desc Init properties
+event_inherited()
 
 partcount = 0
 parts[0] = noone

@@ -1,5 +1,5 @@
-action_inherited();
-/// Define controls output variables
+event_inherited();
+///@desc Define controls output variables
 
 enum k {
   Move,

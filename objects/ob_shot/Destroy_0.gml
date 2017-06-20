@@ -13,7 +13,7 @@ with instance_create(x, y, explType) {      // x - parent id;
     image_yscale = other.explScale
 }  
 
-if sound_exists(explSound) 
+if audio_exists(explSound) 
     sc_play_sound(explSound)
 
 

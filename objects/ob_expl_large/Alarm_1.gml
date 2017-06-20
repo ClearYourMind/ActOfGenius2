@@ -10,4 +10,4 @@
     instance_destroy()
   } 
 
-action_set_alarm(irandom(5)+5, 1);
+alarm[1] = irandom(5)+5

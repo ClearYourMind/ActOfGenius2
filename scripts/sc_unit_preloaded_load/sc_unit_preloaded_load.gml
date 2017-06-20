@@ -38,8 +38,8 @@ if ini_key_exists("unit", "explScale")
 if ini_key_exists("unit", "explSound") {
     inival = ini_read_string("unit", "explSound", "")
     obj = asset_get_index(inival)
-    s+="... (*) Sound " +inival+ " ("+ string(obj) +" , "+ sound_get_name(obj) +")"
-    if sound_exists(obj) {
+    s+="... (*) Sound " +inival+ " ("+ string(obj) +" , "+ audio_get_name(obj) +")"
+    if audio_exists(obj) {
         explSound = obj
     } else {
         // error during load
@@ -225,8 +225,8 @@ do {
         if ini_key_exists(inisect, "soundShot") {
             inival = ini_read_string(inisect, "soundShot", "")
             obj = asset_get_index(inival)
-            s+="... (*) Sound " +inival+ " ("+ string(obj) +" , "+ sound_get_name(obj) +")"
-            if sound_exists(obj) {
+            s+="... (*) Sound " +inival+ " ("+ string(obj) +" , "+ audio_get_name(obj) +")"
+            if audio_exists(obj) {
                 parts[partcount-1].soundShot = obj
             } else {
                 // error during load

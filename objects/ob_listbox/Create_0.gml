@@ -1,5 +1,5 @@
-action_inherited();
-/// Init properties
+event_inherited();
+///@desc Init properties
 
 caption = ""
 textcolor = c_black

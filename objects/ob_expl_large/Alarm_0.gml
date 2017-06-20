@@ -10,4 +10,4 @@
     exit
   }
 
-action_set_alarm(2, 0);
+alarm[0] = 2

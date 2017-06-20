@@ -1,5 +1,5 @@
-action_inherited();
-/// Move all parts together
+event_inherited();
+///@desc Move all parts together
 
 for(var i=partcount-1; i>-1; i--)
 if instance_exists(parts[i])
@@ -74,26 +74,21 @@ with head[i] {
     }
 }
 
-var __b__;
-__b__ = action_if_variable(control, ctrl.AI, 0);
-if __b__
-{
-{
-/// Process AI  (Execute AI Scripts)
+if control == ctrl.AI {
+	/// Process AI  (Execute AI Scripts)
 
-if script_exists(aiMainScript) {
-  script_execute(aiMainScript)
-} //else show_debug_message('Unit "'+fullname+'" has NO aiMainScript assigned')
+	if script_exists(aiMainScript) {
+	  script_execute(aiMainScript)
+	} //else show_debug_message('Unit "'+fullname+'" has NO aiMainScript assigned')
 
-///  Execute aiScript
+	///  Execute aiScript
 
-// Determine if a script is changed
-if o_aiScript != aiScript {
-  show_debug_message("Unit \""+fullname+"\" changed aiScript to "+script_get_name(aiScript))
-  o_aiScript = aiScript
-}
+	// Determine if a script is changed
+	if o_aiScript != aiScript {
+	  show_debug_message("Unit \""+fullname+"\" changed aiScript to "+script_get_name(aiScript))
+	  o_aiScript = aiScript
+	}
   
 
-}
 }
 exit;

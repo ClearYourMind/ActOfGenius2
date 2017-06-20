@@ -1,5 +1,5 @@
-action_inherited();
-/// Init
+event_inherited();
+///@desc Init
 
  // отсчитывается назад
   shakeCount = 15 
@@ -9,5 +9,5 @@ action_inherited();
   _y = __view_get( e__VW.YView, 0 )  
   
 
-action_set_alarm(2, 0);
-action_set_alarm(10, 1);
+alarm[0] = 2
+alarm[1] = 10

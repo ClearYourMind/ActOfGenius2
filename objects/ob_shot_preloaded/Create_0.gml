@@ -1,5 +1,5 @@
-action_inherited();
-/// Init
+event_inherited();
+///@desc Init
 
 //objIndex = noone
 //preloaded = false

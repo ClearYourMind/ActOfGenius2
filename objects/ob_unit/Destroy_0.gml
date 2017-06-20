@@ -1,4 +1,4 @@
-/// @description  Cleaning up
+/// @desc Cleaning up
 
 for (var i=0; i<partcount; i++)
 with parts[i] instance_destroy()
