@@ -1,4 +1,4 @@
-/// @description   Init global variables
+/// @description   Init global variables, set up sound, app surface
 enum ctrl {
   AI,
   Player,
@@ -43,3 +43,6 @@ audio_listener_orientation(0,0,1, 0,-1,0)
   }  
 
 
+
+/// Set up application surface
+application_surface_enable(false)
