@@ -23,7 +23,7 @@ if object_is_ancestor(parentPart.object_index, ob_head) {
     with obj {
         x = other.x
         y = other.y
-        lifeTime = (head.fireDist+75) / moveSpeed
+        lifeTime = (head.fireDist) / moveSpeed
         direction = head.image_angle+(other.sprayFactor*0.5-random(other.sprayFactor))
         teamId = other.parent.teamId
         unitId = other.parent

@@ -42,6 +42,10 @@ preloaded = noone
 sightDist   = 0
 retreatDist = 0
 
+// bodySize is a diagonal
+var a = bbox_right - bbox_left 
+var b = bbox_bottom - bbox_top 
+bodySize = sqrt(a*a + b*b)
 debugstr = ""
 
 

@@ -20,7 +20,7 @@ if idea == "goto" {
   okReach = false
   tgAngle = point_direction(parent.x, parent.y, tgX, tgY)
   var d = distance_to_point(tgX, tgY)
-  if d > maxSpeed * 5          // можно подставить sz, вычисляемый из bbox_width/height
+  if d > parent.bodySize 
     tgSpeed = maxSpeed
   else {  
     tgSpeed = 0  
@@ -65,5 +65,5 @@ parent.speed = sc_ppSec_ppFrame(moveSpeed)
 parent.direction   = angle
 parent.image_angle = angle 
 image_angle = angle
-image_speed = moveSpeed / 4
+image_speed = parent.speed / 4
 

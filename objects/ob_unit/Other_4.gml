@@ -67,7 +67,7 @@ if object_is_ancestor(cannon[i].parentPart.object_index, ob_head) {
 
 // set mask
 sprite_index = body[array_length_1d(body)-1].sprite_index
-//mask_index = body[array_length_1d(body)-1].mask_index
+mask_index   = body[array_length_1d(body)-1].sprite_index
 
 
 
