@@ -1,0 +1,646 @@
+Converting GML script : ${project_dir}\scripts\sc_unit_preloaded_load\sc_unit_preloaded_load.gml
+Converted description : /// @description  sc_unit_preloaded_load(filename)/// @function  sc_unit_preloaded_load
+/// @param filename
+Converted string : line 13 : '' -> ""
+Converted string : line 13 : '' -> ""
+Converted string : line 13 : '' -> ""
+Converted string : line 15 : 'unit' -> "unit"
+Converted string : line 15 : 'name' -> "name"
+Converted string : line 16 : 'unit' -> "unit"
+Converted string : line 16 : 'name' -> "name"
+Converted string : line 16 : '' -> ""
+Converted string : line 17 : 'unit' -> "unit"
+Converted string : line 17 : 'fullname' -> "fullname"
+Converted string : line 18 : 'unit' -> "unit"
+Converted string : line 18 : 'fullname' -> "fullname"
+Converted string : line 18 : '' -> ""
+Converted string : line 19 : 'unit' -> "unit"
+Converted string : line 19 : 'height' -> "height"
+Converted string : line 20 : 'unit' -> "unit"
+Converted string : line 20 : 'height' -> "height"
+Converted string : line 22 : 'unit' -> "unit"
+Converted string : line 22 : 'explType' -> "explType"
+Converted string : line 23 : 'unit' -> "unit"
+Converted string : line 23 : 'explType' -> "explType"
+Converted string : line 23 : '' -> ""
+Converted string : line 25 : '... (*) Object explosion ' -> "... (*) Object explosion "
+Converted string : line 25 : ' (' -> " ("
+Converted string : line 25 : ' , ' -> " , "
+Converted string : line 25 : ')' -> ")"
+Converted string : line 35 : 'unit' -> "unit"
+Converted string : line 35 : 'explScale' -> "explScale"
+Converted string : line 36 : 'unit' -> "unit"
+Converted string : line 36 : 'explScale' -> "explScale"
+Converted string : line 38 : 'unit' -> "unit"
+Converted string : line 38 : 'explSound' -> "explSound"
+Converted string : line 39 : 'unit' -> "unit"
+Converted string : line 39 : 'explSound' -> "explSound"
+Converted string : line 39 : '' -> ""
+Converted string : line 41 : '... (*) Sound ' -> "... (*) Sound "
+Converted string : line 41 : ' (' -> " ("
+Converted string : line 41 : ' , ' -> " , "
+Converted string : line 41 : ')' -> ")"
+Converted string : line 51 : 'unit' -> "unit"
+Converted string : line 51 : 'shieldValue' -> "shieldValue"
+Converted string : line 52 : 'unit' -> "unit"
+Converted string : line 52 : 'shieldValue' -> "shieldValue"
+Converted string : line 53 : 'unit' -> "unit"
+Converted string : line 53 : 'health' -> "health"
+Converted string : line 54 : 'unit' -> "unit"
+Converted string : line 54 : 'health' -> "health"
+Converted string : line 55 : 'unit' -> "unit"
+Converted string : line 55 : 'sightDist' -> "sightDist"
+Converted string : line 56 : 'unit' -> "unit"
+Converted string : line 56 : 'sightDist' -> "sightDist"
+Converted string : line 57 : 'unit' -> "unit"
+Converted string : line 57 : 'retreatDist' -> "retreatDist"
+Converted string : line 58 : 'unit' -> "unit"
+Converted string : line 58 : 'retreatDist' -> "retreatDist"
+Converted string : line 61 : 'unit' -> "unit"
+Converted string : line 61 : 'aiMainScript' -> "aiMainScript"
+Converted string : line 62 : 'unit' -> "unit"
+Converted string : line 62 : 'aiMainScript' -> "aiMainScript"
+Converted string : line 62 : '' -> ""
+Converted string : line 64 : '... (*) Script ' -> "... (*) Script "
+Converted string : line 64 : ' (' -> " ("
+Converted string : line 64 : ' , ' -> " , "
+Converted string : line 64 : ')' -> ")"
+Converted string : line 73 : 'unit' -> "unit"
+Converted string : line 73 : 'scIdle' -> "scIdle"
+Converted string : line 74 : 'unit' -> "unit"
+Converted string : line 74 : 'scIdle' -> "scIdle"
+Converted string : line 74 : '' -> ""
+Converted string : line 76 : '... (*) Script ' -> "... (*) Script "
+Converted string : line 76 : ' (' -> " ("
+Converted string : line 76 : ' , ' -> " , "
+Converted string : line 76 : ')' -> ")"
+Converted string : line 85 : 'unit' -> "unit"
+Converted string : line 85 : 'scFindTarget' -> "scFindTarget"
+Converted string : line 86 : 'unit' -> "unit"
+Converted string : line 86 : 'scFindTarget' -> "scFindTarget"
+Converted string : line 86 : '' -> ""
+Converted string : line 88 : '... (*) Script ' -> "... (*) Script "
+Converted string : line 88 : ' (' -> " ("
+Converted string : line 88 : ' , ' -> " , "
+Converted string : line 88 : ')' -> ")"
+Converted string : line 97 : 'unit' -> "unit"
+Converted string : line 97 : 'scTargetFound' -> "scTargetFound"
+Converted string : line 98 : 'unit' -> "unit"
+Converted string : line 98 : 'scTargetFound' -> "scTargetFound"
+Converted string : line 98 : '' -> ""
+Converted string : line 100 : '... (*) Script ' -> "... (*) Script "
+Converted string : line 100 : ' (' -> " ("
+Converted string : line 100 : ' , ' -> " , "
+Converted string : line 100 : ')' -> ")"
+Converted string : line 109 : 'unit' -> "unit"
+Converted string : line 109 : 'scFollowTarget' -> "scFollowTarget"
+Converted string : line 110 : 'unit' -> "unit"
+Converted string : line 110 : 'scFollowTarget' -> "scFollowTarget"
+Converted string : line 110 : '' -> ""
+Converted string : line 112 : '... (*) Script ' -> "... (*) Script "
+Converted string : line 112 : ' (' -> " ("
+Converted string : line 112 : ' , ' -> " , "
+Converted string : line 112 : ')' -> ")"
+Converted string : line 121 : 'unit' -> "unit"
+Converted string : line 121 : 'scDestroyTarget' -> "scDestroyTarget"
+Converted string : line 122 : 'unit' -> "unit"
+Converted string : line 122 : 'scDestroyTarget' -> "scDestroyTarget"
+Converted string : line 122 : '' -> ""
+Converted string : line 124 : '... (*) Script ' -> "... (*) Script "
+Converted string : line 124 : ' (' -> " ("
+Converted string : line 124 : ' , ' -> " , "
+Converted string : line 124 : ')' -> ")"
+Converted string : line 133 : 'unit' -> "unit"
+Converted string : line 133 : 'scTakeDamage' -> "scTakeDamage"
+Converted string : line 134 : 'unit' -> "unit"
+Converted string : line 134 : 'scTakeDamage' -> "scTakeDamage"
+Converted string : line 134 : '' -> ""
+Converted string : line 136 : '... (*) Script ' -> "... (*) Script "
+Converted string : line 136 : ' (' -> " ("
+Converted string : line 136 : ' , ' -> " , "
+Converted string : line 136 : ')' -> ")"
+Converted string : line 147 : '' -> ""
+Converted string : line 153 : 'part' -> "part"
+Converted string : line 155 : 'Reading ' -> "Reading "
+Converted string : line 155 : '... ' -> "... "
+Converted string : line 157 : 'objectIndex' -> "objectIndex"
+Converted string : line 158 : 'objectIndex' -> "objectIndex"
+Converted string : line 158 : '' -> ""
+Converted string : line 160 : '... (*) Object ' -> "... (*) Object "
+Converted string : line 160 : ' (' -> " ("
+Converted string : line 160 : ' , ' -> " , "
+Converted string : line 160 : '); ' -> "); "
+Converted string : line 172 : 'spriteIndex' -> "spriteIndex"
+Converted string : line 173 : 'spriteIndex' -> "spriteIndex"
+Converted string : line 173 : 'noone' -> "noone"
+Converted string : line 175 : '... (*) Sprite ' -> "... (*) Sprite "
+Converted string : line 175 : ' (' -> " ("
+Converted string : line 175 : ' , ' -> " , "
+Converted string : line 175 : ')' -> ")"
+Converted string : line 185 : 'xOffset' -> "xOffset"
+Converted string : line 186 : 'xOffset' -> "xOffset"
+Converted string : line 187 : 'yOffset' -> "yOffset"
+Converted string : line 188 : 'yOffset' -> "yOffset"
+Converted string : line 189 : 'parentPart' -> "parentPart"
+Converted string : line 190 : 'parentPart' -> "parentPart"
+Converted string : line 193 : 'maxSpeed' -> "maxSpeed"
+Converted string : line 194 : 'maxSpeed' -> "maxSpeed"
+Converted string : line 195 : 'accel' -> "accel"
+Converted string : line 196 : 'accel' -> "accel"
+Converted string : line 197 : 'turnSpeed' -> "turnSpeed"
+Converted string : line 198 : 'turnSpeed' -> "turnSpeed"
+Converted string : line 199 : 'stopFactor' -> "stopFactor"
+Converted string : line 200 : 'stopFactor' -> "stopFactor"
+Converted string : line 203 : 'shotName' -> "shotName"
+Converted string : line 204 : 'shotName' -> "shotName"
+Converted string : line 204 : '' -> ""
+Converted string : line 205 : 'Shot name is ' -> "Shot name is "
+Converted string : line 208 : 'sprayFactor' -> "sprayFactor"
+Converted string : line 209 : 'sprayFactor' -> "sprayFactor"
+Converted string : line 212 : 'activeDist' -> "activeDist"
+Converted string : line 213 : 'activeDist' -> "activeDist"
+Converted string : line 214 : 'fireDist' -> "fireDist"
+Converted string : line 215 : 'fireDist' -> "fireDist"
+Converted string : line 216 : 'shotTime' -> "shotTime"
+Converted string : line 217 : 'shotTime' -> "shotTime"
+Converted string : line 218 : 'burstCount' -> "burstCount"
+Converted string : line 219 : 'burstCount' -> "burstCount"
+Converted string : line 220 : 'burstTime' -> "burstTime"
+Converted string : line 221 : 'burstTime' -> "burstTime"
+Converted string : line 222 : 'rotateRange' -> "rotateRange"
+Converted string : line 223 : 'rotateRange' -> "rotateRange"
+Converted string : line 225 : 'soundShot' -> "soundShot"
+Converted string : line 226 : 'soundShot' -> "soundShot"
+Converted string : line 226 : '' -> ""
+Converted string : line 228 : '... (*) Sound ' -> "... (*) Sound "
+Converted string : line 228 : ' (' -> " ("
+Converted string : line 228 : ' , ' -> " , "
+Converted string : line 228 : ')' -> ")"
+Converted string : line 241 : 'Section ' -> "Section "
+
+Converting GML script : ${project_dir}\scripts\sc_objarray_add\sc_objarray_add.gml
+Converted description : /// @description  sc_objarray_add(arr, value)/// @function  sc_objarray_add
+/// @param arr
+/// @param  value
+
+Converting GML script : ${project_dir}\scripts\sc_objarray_find_by_parent\sc_objarray_find_by_parent.gml
+Converted string : line 11 : 'sc_objarray_find_by_parent Failed!' -> "sc_objarray_find_by_parent Failed!"
+
+Converting GML script : ${project_dir}\scripts\sc_game_object_take_damage\sc_game_object_take_damage.gml
+Converted description : /// @description  sc_game_object_take_damage(shot)/// @function  sc_game_object_take_damage
+/// @param shot
+
+Converting GML script : ${project_dir}\scripts\sc_play_sound\sc_play_sound.gml
+Converted description : /// @description  sc_play_sound(sound)/// @function  sc_play_sound
+/// @param sound
+
+Converting GML script : ${project_dir}\scripts\sc_unit_take_damage\sc_unit_take_damage.gml
+Converted description : /// @description  sc_unit_take_damage(shot)/// @function  sc_unit_take_damage
+/// @param shot
+
+Converting GML script : ${project_dir}\scripts\sc_net_connect\sc_net_connect.gml
+Converted description : /// @description  sc_net_connect()/// @function  sc_net_connect
+
+Converting GML script : ${project_dir}\scripts\sc_deal_damage\sc_deal_damage.gml
+Converted description : /// @description  sc_deal_damage()/// @function  sc_deal_damage
+
+Converting GML script : ${project_dir}\scripts\sc_net_send_data\sc_net_send_data.gml
+Converted description : /// @description  sc_send_data(net_id, buf | val1 [, val2, valN])/// @function  sc_send_data
+/// @param net_id
+/// @param  buf | val1 [
+/// @param  val2
+/// @param  valN]
+
+Converting GML script : ${project_dir}\scripts\sc_button_connect\sc_button_connect.gml
+Converted description : /// @description  sc_button_connect()/// @function  sc_button_connect
+
+Converting GML script : ${project_dir}\scripts\sc_unit_ai_1\sc_unit_ai_1.gml
+Converted description : /// @description  sc_unit_ai_1()/// @function  sc_unit_ai_1
+
+Converting GML script : ${project_dir}\scripts\sc_unit_ai_findtarget\sc_unit_ai_findtarget.gml
+Converted description : /// @description  sc_unit_ai_findtarget()/// @function  sc_unit_ai_findtarget
+
+Converting GML script : ${project_dir}\scripts\sc_unit_ai_targetfound\sc_unit_ai_targetfound.gml
+Converted description : /// @description  sc_unit_ai_targetfound()/// @function  sc_unit_ai_targetfound
+Converted string : line 27 : '' -> ""
+
+Converting GML script : ${project_dir}\scripts\sc_unit_ai_follow\sc_unit_ai_follow.gml
+Converted description : /// @description  sc_unit_ai_follow()/// @function  sc_unit_ai_follow
+Converted string : line 16 : 'stop' -> "stop"
+Converted string : line 22 : 'goto' -> "goto"
+
+Converting GML script : ${project_dir}\scripts\sc_unit_ai_destroytarget\sc_unit_ai_destroytarget.gml
+Converted description : /// @description  sc_unit_ai_destroytarget()/// @function  sc_unit_ai_destroytarget
+Converted string : line 14 : 'shot' -> "shot"
+
+Converting GML script : ${project_dir}\scripts\sc_unit_idle\sc_unit_idle.gml
+Converted description : /// @description  sc_unit_idle(next_script)/// @function  sc_unit_idle
+/// @param next_script
+Converted string : line 12 : '' -> ""
+Converted string : line 19 : 'stop' -> "stop"
+
+Converting GML script : ${project_dir}\scripts\sc_button_send\sc_button_send.gml
+Converted description : /// @description  sc_button_send()/// @function  sc_button_send
+Converted string : line 7 : '' -> ""
+
+Converting GML script : ${project_dir}\scripts\sc_gui_base_focusable_leftpressed\sc_gui_base_focusable_leftpressed.gml
+Converted description : /// @description  sc_gui_base_focusable_leftpressed()/// @function  sc_gui_base_focusable_leftpressed
+
+Converting GML script : ${project_dir}\scripts\sc_gui_find_by_name\sc_gui_find_by_name.gml
+Converted description : /// @description  sc_gui_find_by_name(name)/// @function  sc_gui_find_by_name
+/// @param name
+
+Converting GML script : ${project_dir}\scripts\sc_gui_base_captionable_draw\sc_gui_base_captionable_draw.gml
+Converted description : /// @description  sc_gui_base_captionable_draw()/// @function  sc_gui_base_captionable_draw
+
+Converting GML script : ${project_dir}\objects\ob_sys\Create_0.gml
+Converted builtin : line 21 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 41 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 41 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 21 : view_wport[0] -> __view_get( e__VW.WPort, 0 )
+Converted description : /// @description   Init global variables
+
+Converting GML script : ${project_dir}\objects\ob_sys\Other_3.gml
+Converted description : /// @description  Free memory
+
+Converting GML script : ${project_dir}\objects\ob_game_master\Create_0.gml
+Converted description : /// @description  Load units
+Converted string : line 3 : 'units\*' -> "units\\*"
+Converted string : line 4 : '' -> ""
+Converted string : line 5 : 'units\' -> "units\\"
+Converted string : line 6 : 'File ' -> "File "
+Converted string : line 6 : ' opened successfully!' -> " opened successfully!"
+Converted string : line 8 : 'File ' -> "File "
+Converted string : line 8 : ' not found!' -> " not found!"
+Converted string : line 11 : 'units\' -> "units\\"
+Converted string : line 24 : 'shots\*' -> "shots\\*"
+Converted string : line 25 : '' -> ""
+Converted string : line 26 : 'shots\' -> "shots\\"
+Converted string : line 27 : 'File ' -> "File "
+Converted string : line 27 : ' opened successfully!' -> " opened successfully!"
+Converted string : line 29 : 'File ' -> "File "
+Converted string : line 29 : ' not found!' -> " not found!"
+Converted string : line 32 : 'shots\' -> "shots\\"
+
+Converting GML script : ${project_dir}\objects\ob_game_master\Step_1.gml
+Converted builtin : line 2 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 2 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin : line 2 : view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin : line 2 : view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description : /// @description  Move audio listener
+
+Converting GML script : ${project_dir}\scripts\sc_shot_preloaded_load\sc_shot_preloaded_load.gml
+Converted description : /// @description  sc_shot_preloaded_load(filename)/// @function  sc_shot_preloaded_load
+/// @param filename
+Converted string : line 7 : '' -> ""
+Converted string : line 7 : '' -> ""
+Converted string : line 7 : '' -> ""
+Converted string : line 13 : 'shot' -> "shot"
+Converted string : line 13 : 'name' -> "name"
+Converted string : line 14 : 'shot' -> "shot"
+Converted string : line 14 : 'name' -> "name"
+Converted string : line 14 : '' -> ""
+Converted string : line 15 : 'shot' -> "shot"
+Converted string : line 15 : 'fullname' -> "fullname"
+Converted string : line 16 : 'shot' -> "shot"
+Converted string : line 16 : 'fullname' -> "fullname"
+Converted string : line 16 : '' -> ""
+Converted string : line 18 : 'Loading ' -> "Loading "
+Converted string : line 18 : '... ' -> "... "
+Converted string : line 20 : 'shot' -> "shot"
+Converted string : line 20 : 'objectIndex' -> "objectIndex"
+Converted string : line 21 : 'shot' -> "shot"
+Converted string : line 21 : 'objectIndex' -> "objectIndex"
+Converted string : line 21 : '' -> ""
+Converted string : line 23 : ' (*) Shot ' -> " (*) Shot "
+Converted string : line 23 : ' (' -> " ("
+Converted string : line 23 : ' , ' -> " , "
+Converted string : line 23 : '); ' -> "); "
+Converted string : line 32 : 'shot' -> "shot"
+Converted string : line 32 : 'spriteIndex' -> "spriteIndex"
+Converted string : line 33 : 'shot' -> "shot"
+Converted string : line 33 : 'spriteIndex' -> "spriteIndex"
+Converted string : line 33 : 'sp_target' -> "sp_target"
+Converted string : line 35 : ' (*) Sprite ' -> " (*) Sprite "
+Converted string : line 35 : ' (' -> " ("
+Converted string : line 35 : ' , ' -> " , "
+Converted string : line 35 : ')' -> ")"
+Converted string : line 44 : 'shot' -> "shot"
+Converted string : line 44 : 'scDealDamage' -> "scDealDamage"
+Converted string : line 45 : 'shot' -> "shot"
+Converted string : line 45 : 'scDealDamage' -> "scDealDamage"
+Converted string : line 45 : '' -> ""
+Converted string : line 47 : ' (*) Script ' -> " (*) Script "
+Converted string : line 47 : ' (' -> " ("
+Converted string : line 47 : ' , ' -> " , "
+Converted string : line 47 : ')' -> ")"
+Converted string : line 58 : 'shot' -> "shot"
+Converted string : line 58 : 'moveSpeed' -> "moveSpeed"
+Converted string : line 59 : 'shot' -> "shot"
+Converted string : line 59 : 'moveSpeed' -> "moveSpeed"
+Converted string : line 60 : 'shot' -> "shot"
+Converted string : line 60 : 'damageType' -> "damageType"
+Converted string : line 61 : 'shot' -> "shot"
+Converted string : line 61 : 'damageType' -> "damageType"
+Converted string : line 62 : 'shot' -> "shot"
+Converted string : line 62 : 'damage' -> "damage"
+Converted string : line 63 : 'shot' -> "shot"
+Converted string : line 63 : 'damage' -> "damage"
+Converted string : line 64 : 'shot' -> "shot"
+Converted string : line 64 : 'hitSize' -> "hitSize"
+Converted string : line 65 : 'shot' -> "shot"
+Converted string : line 65 : 'hitSize' -> "hitSize"
+Converted string : line 66 : 'shot' -> "shot"
+Converted string : line 66 : 'pierceVal' -> "pierceVal"
+Converted string : line 67 : 'shot' -> "shot"
+Converted string : line 67 : 'pierceVal' -> "pierceVal"
+Converted string : line 68 : 'shot' -> "shot"
+Converted string : line 68 : 'height' -> "height"
+Converted string : line 69 : 'shot' -> "shot"
+Converted string : line 69 : 'height' -> "height"
+Converted string : line 71 : 'shot' -> "shot"
+Converted string : line 71 : 'explType' -> "explType"
+Converted string : line 72 : 'shot' -> "shot"
+Converted string : line 72 : 'explType' -> "explType"
+Converted string : line 72 : '' -> ""
+Converted string : line 74 : ' (*) Object explosion ' -> " (*) Object explosion "
+Converted string : line 74 : ' (' -> " ("
+Converted string : line 74 : ' , ' -> " , "
+Converted string : line 74 : ')' -> ")"
+Converted string : line 84 : 'shot' -> "shot"
+Converted string : line 84 : 'explScale' -> "explScale"
+Converted string : line 85 : 'shot' -> "shot"
+Converted string : line 85 : 'explScale' -> "explScale"
+Converted string : line 87 : 'shot' -> "shot"
+Converted string : line 87 : 'explSound' -> "explSound"
+Converted string : line 88 : 'shot' -> "shot"
+Converted string : line 88 : 'explSound' -> "explSound"
+Converted string : line 88 : '' -> ""
+Converted string : line 90 : ' (*) Sound ' -> " (*) Sound "
+Converted string : line 90 : ' (' -> " ("
+Converted string : line 90 : ' , ' -> " , "
+Converted string : line 90 : ')' -> ")"
+
+Converting GML script : ${project_dir}\objects\ob_net\Create_0.gml
+Converted description : /// @description  Network variables
+
+Converting GML script : ${project_dir}\objects\ob_net\Other_68.gml
+Converted description : /// @description  Get incoming data values
+Converted string : line 38 : 'Greeting from ' -> "Greeting from "
+Converted string : line 38 : ' "' -> " \""
+Converted string : line 38 : '"' -> "\""
+Converted string : line 48 : 'ip: ' -> "ip: "
+Converted string : line 48 : ' >> ' -> " >> "
+
+Converting GML script : ${project_dir}\objects\ob_net\Other_3.gml
+Converted description : /// @description  Finalization
+
+Converting GML script : ${project_dir}\objects\ob_control_keyboard\Alarm_0.gml
+Converted description : /// @description  Restart timer
+
+Converting GML script : ${project_dir}\objects\ob_control_keyboard\Step_0.gml
+Converted description : /// @description  Processing input
+
+Converting GML script : ${project_dir}\objects\ob_control_keyboard\KeyPress_27.gml
+Converted description : /// @description  Hold Esc for a while to restart
+
+Converting GML script : ${project_dir}\objects\ob_control_keyboard\KeyRelease_27.gml
+Converted description : /// @description  Check timer when Esc released
+
+Converting GML script : ${project_dir}\objects\ob_game_object\Create_0.gml
+Converted description : /// @description  Init
+
+Converting GML script : ${project_dir}\objects\ob_game_object\Step_0.gml
+Converted description : /// @description  Check status
+
+Converting GML script : ${project_dir}\objects\ob_select\Create_0.gml
+Converted description : /// @description  Init
+
+Converting GML script : ${project_dir}\objects\ob_select\Destroy_0.gml
+Converted description : /// @description  Deselect unit
+
+Converting GML script : ${project_dir}\objects\ob_select\Step_0.gml
+Converted description : /// @description  Следовать за юнитом
+
+Converting GML script : ${project_dir}\objects\ob_unit_preloaded\Create_0.gml
+Converted description : /// @description  Init properties
+Converted string : line 6 : '' -> ""
+Converted string : line 7 : '' -> ""
+Converted string : line 8 : '' -> ""
+
+Converting GML script : ${project_dir}\objects\ob_control\Create_0.gml
+Converted description : /// @description  Set global control variable
+
+Font fn_default has been converted to font family Trebuchet MS (Regular). Font has been regenerated, small inconsistencies may occur.
+Converting GML script : ${project_dir}\objects\ob_tank_cannon\Step_0.gml
+Converted description : /// @description   Check if parent alive
+Converted string : line 8 : 'shot' -> "shot"
+Converted string : line 11 : '' -> ""
+
+Converting GML script : ${project_dir}\objects\ob_tank_chassis\Step_0.gml
+Converted description : /// @description   Check if parent alive
+Converted string : line 8 : 'stop' -> "stop"
+Converted string : line 13 : '' -> ""
+Converted string : line 16 : 'goto' -> "goto"
+Converted string : line 25 : 'stop' -> "stop"
+
+Converting GML script : ${project_dir}\objects\ob_unit\Create_0.gml
+Converted string : line 30 : '' -> ""
+Converted string : line 31 : '' -> ""
+Converted string : line 32 : '' -> ""
+Converted string : line 45 : '' -> ""
+
+Converting GML script : ${project_dir}\objects\ob_unit\Destroy_0.gml
+Converted description : /// @description  Cleaning up
+
+Converting GML script : ${project_dir}\objects\ob_unit\Step_0.gml
+Converted string : line 71 : 'shot' -> "shot"
+Converted string : line 73 : '' -> ""
+Converted string : line 92 : 'Unit "' -> "Unit \""
+Converted string : line 92 : '" changed aiScript to ' -> "\" changed aiScript to "
+
+Converting GML script : ${project_dir}\objects\ob_unit\Collision_bbc1dcdc-934b-4afc-a3c3-0424e812b968.gml
+Converted description : /// @description  Process collision
+
+Converting GML script : ${project_dir}\objects\ob_unit\Mouse_4.gml
+Converted builtin : line 21 : view_object[0] = id -> __view_set( e__VW.Object, 0, id )
+Converted builtin : line 27 : view_object[0] = noone -> __view_set( e__VW.Object, 0, noone )
+Converted description : /// @description  Select unit
+
+Converting GML script : ${project_dir}\objects\ob_unit\Other_4.gml
+Converted description : /// @description  Create parts from preloaded unit
+Converted string : line 12 : 'Preloaded unit "' -> "Preloaded unit \""
+Converted string : line 12 : '" found (' -> "\" found ("
+Converted string : line 12 : '). Creating unit...' -> "). Creating unit..."
+Converted string : line 14 : 'Preloaded unit "' -> "Preloaded unit \""
+Converted string : line 14 : '" not found!' -> "\" not found!"
+Converted string : line 36 : 'Parent for part ' -> "Parent for part "
+Converted string : line 36 : ' (' -> " ("
+Converted string : line 36 : ') is: ' -> ") is: "
+Converted string : line 37 : ' (' -> " ("
+Converted string : line 37 : ')' -> ")"
+Converted string : line 106 : '' -> ""
+Converted string : line 109 : 'Head (' -> "Head ("
+Converted string : line 109 : ') has ' -> ") has "
+Converted string : line 109 : ' cannons assigned: ' -> " cannons assigned: "
+Converted string : line 111 : ', ' -> ", "
+Converted string : line 116 : '' -> ""
+Converted string : line 117 : 'Chassis count=' -> "Chassis count="
+Converted string : line 117 : '; ' -> "; "
+Converted string : line 119 : ' (' -> " ("
+Converted string : line 119 : '), ' -> "), "
+Converted string : line 122 : '' -> ""
+Converted string : line 123 : 'Body count=' -> "Body count="
+Converted string : line 123 : '; ' -> "; "
+Converted string : line 125 : ' (' -> " ("
+Converted string : line 125 : '), ' -> "), "
+Converted string : line 128 : '' -> ""
+Converted string : line 129 : 'Head count=' -> "Head count="
+Converted string : line 129 : '; ' -> "; "
+Converted string : line 131 : ' (' -> " ("
+Converted string : line 131 : '), ' -> "), "
+Converted string : line 133 : '' -> ""
+Converted string : line 135 : 'BurstTime = ' -> "BurstTime = "
+Converted string : line 135 : '; ' -> "; "
+Converted string : line 138 : '' -> ""
+Converted string : line 139 : 'Cannon count=' -> "Cannon count="
+Converted string : line 139 : '; ' -> "; "
+Converted string : line 141 : ' (' -> " ("
+Converted string : line 141 : '), ' -> "), "
+
+Converting GML script : ${project_dir}\objects\ob_head\Create_0.gml
+Converted string : line 26 : '' -> ""
+
+Converting GML script : ${project_dir}\objects\ob_chassis\Create_0.gml
+Converted string : line 22 : '' -> ""
+
+Converting GML script : ${project_dir}\objects\ob_chassis\Draw_0.gml
+Converted description : /// @description  Draw self
+
+Converting GML script : ${project_dir}\objects\ob_part\Create_0.gml
+Converted description : /// @description  Set properties
+Converted string : line 6 : '' -> ""
+
+Converting GML script : ${project_dir}\objects\ob_part\Draw_0.gml
+Converted description : /// @description  Draw colored sprite over
+
+Converting GML script : ${project_dir}\objects\ob_cannon\Create_0.gml
+Converted string : line 4 : '' -> ""
+Converted string : line 9 : '' -> ""
+
+Converting GML script : ${project_dir}\objects\ob_cannon\Draw_0.gml
+Converted description : /// @description  Draw self
+
+Converting GML script : ${project_dir}\objects\ob_shot\Create_0.gml
+Converted description : /// @description  Init properties
+Converted string : line 2 : '' -> ""
+Converted string : line 3 : '' -> ""
+
+Converting GML script : ${project_dir}\objects\ob_shot\Destroy_0.gml
+Converted description : /// @description  Run custom scDealDamage script
+
+Converting GML script : ${project_dir}\objects\ob_shot\Other_4.gml
+Converted description : /// @description  Set properties
+
+Converting GML script : ${project_dir}\objects\ob_shot_tank\Collision_a32ecd1a-2765-429e-a07b-e0f477a6dcc6.gml
+Converted description : /// @description  Сollision 
+
+Converting GML script : ${project_dir}\objects\ob_expl\Create_0.gml
+Converted description : /// @description  Initialization
+
+Converting GML script : ${project_dir}\objects\ob_expl\Destroy_0.gml
+Converted description : /// @description  Clean up
+
+Converting GML script : ${project_dir}\objects\ob_expl\Step_0.gml
+Converted description : /// @description  Destroy when anim finished
+
+Converting GML script : ${project_dir}\objects\ob_expl_large\Create_0.gml
+Converted builtin : line 8 : view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin : line 9 : view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script : ${project_dir}\objects\ob_expl_large\Alarm_1.gml
+Converted description : /// @description  Appear explosions
+
+Converting GML script : ${project_dir}\objects\ob_expl_large\Alarm_0.gml
+Converted builtin : line 5 : view_xview[0] = _x + (random(20)-10) -> __view_set( e__VW.XView, 0, _x + (random(20)-10) )
+Converted builtin : line 8 : view_xview[0] = _x -> __view_set( e__VW.XView, 0, _x )
+Converted builtin : line 6 : view_yview[0] = _y + (random(20)-10) -> __view_set( e__VW.YView, 0, _y + (random(20)-10) )
+Converted builtin : line 9 : view_yview[0] = _y -> __view_set( e__VW.YView, 0, _y )
+Converted description : /// @description  Camera shaking
+
+Converting GML script : ${project_dir}\objects\ob_tank_head\Alarm_1.gml
+Converted description : /// @description  Do shot   (set cannon idea = 'shot')/// @function  Do shot   
+/// @param set cannon idea = 'shot'
+Converted string : line 9 : 'shot' -> "shot"
+
+Converting GML script : ${project_dir}\objects\ob_tank_head\Alarm_0.gml
+Converted description : /// @description  Reload
+
+Converting GML script : ${project_dir}\objects\ob_tank_head\Step_0.gml
+Converted description : /// @description   Check if parent alive
+Converted string : line 10 : '' -> ""
+Converted string : line 22 : 'shot' -> "shot"
+Converted string : line 25 : '' -> ""
+
+Converting GML script : ${project_dir}\objects\ob_shield_flash\Step_2.gml
+Converted description : /// @description  Destroy when anim finished
+
+Converting GML script : ${project_dir}\objects\ob_text_cloud\Create_0.gml
+Converted string : line 4 : '-  ???  -' -> "-  ???  -"
+
+Converting GML script : ${project_dir}\objects\ob_text_cloud\Step_0.gml
+Converted description : /// @description  Slowly disappear
+
+Converting GML script : ${project_dir}\objects\ob_text_cloud\Draw_0.gml
+Converted description : /// @description  Draw text
+
+Converting GML script : ${project_dir}\objects\ob_listbox\Destroy_0.gml
+Converted description : /// @description  Cleanup
+
+Converting GML script : ${project_dir}\objects\ob_listbox\Step_0.gml
+Converted description : /// @description  Check for changes in lines
+
+Converting GML script : ${project_dir}\objects\ob_textbox\Keyboard_1.gml
+Converted description : /// @description  change event
+
+Converting GML script : ${project_dir}\objects\ob_button\Create_0.gml
+Converted string : line 2 : 'button' -> "button"
+
+Converting GML script : ${project_dir}\objects\ob_button\Mouse_7.gml
+Converted description : /// @description  click event
+
+Converting GML script : ${project_dir}\objects\ob_button\Mouse_0.gml
+Converted description : /// @description  push effect
+
+Converting GML script : instance inst_4BBA7F6F creation code
+Converted string : line 1 : 'mashup' -> "mashup"
+
+Converting GML script : instance inst_A65B660A creation code
+Converted string : line 1 : 'jeep' -> "jeep"
+
+Converting GML script : instance inst_54009C95 creation code
+Converted string : line 1 : 'jeep' -> "jeep"
+
+Converting GML script : ${project_dir}\objects\ob_gui\Create_0.gml
+Converted description : /// @description  Init common properties
+Converted string : line 3 : '' -> ""
+Converted string : line 5 : '' -> ""
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit.
+game speed set to 30
+added compatibility script action/action_if_variable.gml
+added compatibility script action/action_inherited.gml
+added compatibility script action/action_kill_object.gml
+added compatibility script action/action_set_alarm.gml
+added compatibility script draw/draw_set_blend_mode.gml
+added compatibility script instance/instance_create.gml
+added compatibility script object/object_get_depth.gml
+added compatibility script sound/sound_exists.gml
+added compatibility script sound/sound_get_name.gml
+added compatibility script view/__view_get.gml
+added compatibility script view/__view_set.gml
+added compatibility script view/__view_set_internal.gml
+added compatibility script action/__init_action.gml
+added compatibility script view/__init_view.gml
+added compatibility script __init_global.gml
+added compatibility script __global_object_depths.gml
