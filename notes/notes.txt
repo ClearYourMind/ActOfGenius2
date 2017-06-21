@@ -2,3 +2,9 @@
 
 Нужен ли Room_start у ob_shot и у ob_shot_preloaded? (decided)
 
+
+21.06.17
+
+v = v0*stopFactor^(t)
+stopFactor означает насколько упадет скорость через одну секунду
+

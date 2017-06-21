@@ -5,7 +5,7 @@
 globalvar Teams
 globalvar SelUnit
 globalvar viewCoeff
-globalvar ppSec_ppFrame
+globalvar dTime
 globalvar minFps
 
 enum ctrl {
@@ -26,7 +26,7 @@ SelUnit = noone
 
 viewCoeff = __view_get( e__VW.WPort, 0 ) / __view_get( e__VW.WView, 0 )
 
-ppSec_ppFrame = 0
+dTime = 0
 minFps = 20
 
 

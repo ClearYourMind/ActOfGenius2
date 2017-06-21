@@ -16,7 +16,6 @@ if idea == "stop" {
 } else
 
 if idea == "goto" {
-//if instance_exists(parent.target) 
   okReach = false
   tgAngle = point_direction(parent.x, parent.y, tgX, tgY)
   var d = distance_to_point(tgX, tgY)
@@ -36,17 +35,14 @@ if idea == "goto" {
 if not instance_exists(parent) exit
 
   // set direction       
+var _turnSpeed = turnSpeed * dTime  
 var turnSign = angle_difference(tgAngle, angle);
 
-
-
-//if ( abs(turnSign) > 180 ) 
-//  turnSign = -turnSign
-  
-if ((angle > tgAngle-turnSpeed*1.5) and ( angle < tgAngle+turnSpeed*1.5))
+ 
+if ((angle > tgAngle-_turnSpeed*0.5) and ( angle < tgAngle+_turnSpeed+0.5))
   angle = tgAngle 
 else
-  angle += turnSpeed * sign(turnSign)
+  angle += _turnSpeed * sign(turnSign)
       
   // set speed
 if (abs(moveSpeed) <= abs(tgSpeed))  
@@ -55,15 +51,18 @@ else
 if (abs(moveSpeed) > abs(tgSpeed))  
   moveSpeed *= stopFactor  
   
-//if (abs(moveSpeed) > maxSpeed)    
-//  moveSpeed = maxSpeed * sign(moveSpeed)
-
 if angle<0   then angle = angle+360  
 if angle>360 then angle = angle-360
     
-parent.speed = moveSpeed * ppSec_ppFrame
+	
+	
+///  Moving	
+
 parent.direction   = angle
 parent.image_angle = angle 
 image_angle = angle
-image_speed = parent.speed / 4
+image_speed = moveSpeed*dTime / 4
 
+var spd = moveSpeed
+var acc = accel
+with parent sc_game_object_move(spd, acc)

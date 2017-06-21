@@ -1,11 +1,11 @@
-/// @description   Check if parent alive
+/// @description Process behaviour
+
+///  Check if parent alive
 
 if not instance_exists(parent) exit;
 
 
-/// Process ideas
-
-//if parent == noone exit
+///  Process ideas
 
 if idea == "" {
     alarm[1] = -1
@@ -42,13 +42,14 @@ if abs(turnSign) <= 2
     okAngle = true
     
 // targeting for turning head
-if abs(turnSign) <= turnSpeed * 1.5 {   
+var _turnSpeed = turnSpeed * dTime
+if abs(turnSign) <= _turnSpeed * 1.5 {   
     angle = tgAngle 
     okAngle = true
 }
 
 if not okAngle {
-    angle += turnSpeed * sign(turnSign)
+    angle += _turnSpeed * sign(turnSign)
 }
   
 direction = angle

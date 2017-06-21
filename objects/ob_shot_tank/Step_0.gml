@@ -1,9 +1,9 @@
-/// @description Move, LifeTime expiration
+/// @description Moving, LifeTime expiration
 
-speed = moveSpeed * ppSec_ppFrame
+sc_shot_move(moveSpeed)
 
 // lifeTime expiration
-lifeTime -= ppSec_ppFrame
+lifeTime -= dTime
 if lifeTime<=0 
 	instance_destroy()
 
