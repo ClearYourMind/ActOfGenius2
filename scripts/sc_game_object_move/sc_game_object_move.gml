@@ -17,6 +17,26 @@ if argument_count>1 {
 	var s = spd*dTime
 
 
-x += lengthdir_x(s, direction)
-y += lengthdir_y(s, direction)
+var _dx = lengthdir_x(s, direction)
+var _dy = lengthdir_y(s, direction)
+
+if not place_meeting(x+_dx, y+_dy, ob_game_object) {
+	x += _dx
+	y += _dy
+} else {
+	var range = 90 // degrees at both sides
+	var step = 12
+	var d = direction
+	for (var i=step; i<=range; i+=step)
+	for (var m = -1; m<=1; m += 2) {
+		_dx = lengthdir_x(s, d+i*m)
+		_dy = lengthdir_y(s, d+i*m)
+		if not place_meeting(x+_dx, y+_dy, ob_game_object) {
+			x += _dx
+			y += _dy
+			return;
+		}
+	}
+}
+
 

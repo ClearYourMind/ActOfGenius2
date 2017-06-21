@@ -8,3 +8,5 @@
 v = v0*stopFactor^(t)
 stopFactor означает насколько упадет скорость через одну секунду
 
+s = vt
+s = v0*stopFactor^t*t
