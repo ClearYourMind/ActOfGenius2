@@ -1,3 +1,3 @@
 /// @description Calculate dTime in secs (time between frames)
 
-dTime = delta_time / 1000000
+ppSec_ppFrame = min(delta_time / 1000000, 1 / minFps)

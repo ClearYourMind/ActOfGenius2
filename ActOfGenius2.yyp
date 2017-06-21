@@ -1127,14 +1127,6 @@
             }
         },
         {
-            "Key": "7afb1b48-952f-4439-b665-e6db7d58fb37",
-            "Value": {
-                "id": "ad997b7b-f90d-46ec-ad54-26a86d6a0083",
-                "resourcePath": "scripts\\sc_ppSec_ppFrame\\sc_ppSec_ppFrame.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "7b9ebcea-6f33-4ec3-81ce-59a7a92360de",
             "Value": {
                 "id": "77d0c8d0-7cb8-48a3-9809-8411319fa991",
@@ -2327,7 +2319,6 @@
         "17e80c58-4c32-4bcc-827d-e8dbeafa9a36",
         "3d5eabbc-f7b9-483f-a1a2-123464d508b4",
         "a1a5ce1b-ce6a-40bf-a2d9-46e05c2153a3",
-        "7afb1b48-952f-4439-b665-e6db7d58fb37",
         "f9a7a51f-f4b3-4923-b0fc-48027f3b61fe",
         "4b42f3d9-94b7-4fa3-9530-e3bf97f4038d",
         "89a7e3b9-dc60-4918-93ce-dc5415a70ed9",

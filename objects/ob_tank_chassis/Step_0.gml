@@ -33,7 +33,7 @@ if idea == "goto" {
 
 ///  Behaviour
 
-if parent == noone exit
+if not instance_exists(parent) exit
 
   // set direction       
 var turnSign = angle_difference(tgAngle, angle);
@@ -61,7 +61,7 @@ if (abs(moveSpeed) > abs(tgSpeed))
 if angle<0   then angle = angle+360  
 if angle>360 then angle = angle-360
     
-parent.speed = sc_ppSec_ppFrame(moveSpeed)
+parent.speed = moveSpeed * ppSec_ppFrame
 parent.direction   = angle
 parent.image_angle = angle 
 image_angle = angle

@@ -1,9 +1,9 @@
 /// @description Move, LifeTime expiration
 
-speed = sc_ppSec_ppFrame(moveSpeed)
+speed = moveSpeed * ppSec_ppFrame
 
 // lifeTime expiration
-lifeTime -= dTime
+lifeTime -= ppSec_ppFrame
 if lifeTime<=0 
 	instance_destroy()
 
