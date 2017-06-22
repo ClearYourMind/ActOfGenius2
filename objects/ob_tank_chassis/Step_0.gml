@@ -49,7 +49,7 @@ if (abs(moveSpeed) <= abs(tgSpeed))
   moveSpeed += accel * sign(tgSpeed)      
 else  
 if (abs(moveSpeed) > abs(tgSpeed))  
-  moveSpeed *= stopFactor  
+  moveSpeed *= power(stopFactor, dTime)
   
 if angle<0   then angle = angle+360  
 if angle>360 then angle = angle-360

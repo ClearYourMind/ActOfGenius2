@@ -20,6 +20,8 @@ if argument_count>1 {
 var _dx = lengthdir_x(s, direction)
 var _dy = lengthdir_y(s, direction)
 
+/// Collision
+
 if not place_meeting(x+_dx, y+_dy, ob_game_object) {
 	x += _dx
 	y += _dy
@@ -31,7 +33,7 @@ if not place_meeting(x+_dx, y+_dy, ob_game_object) {
 	for (var m = -1; m<=1; m += 2) {
 		_dx = lengthdir_x(s, d+i*m)
 		_dy = lengthdir_y(s, d+i*m)
-		if not place_meeting(x+_dx, y+_dy, ob_game_object) {
+		if not place_meeting(x+_dx, y+_dy, ob_game_object) { 
 			x += _dx
 			y += _dy
 			return;
