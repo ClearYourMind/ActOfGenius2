@@ -65,4 +65,8 @@ image_speed = moveSpeed*dTime / 4
 
 var spd = moveSpeed
 var acc = accel
-with parent sc_game_object_move(spd, acc)
+with parent {
+	var d_xy = sc_game_object_move(spd, acc);
+	x += d_xy[0]
+	y += d_xy[1]
+}

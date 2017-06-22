@@ -2,43 +2,27 @@
 ///@arg Speed in pixels per second
 ///@arg Accel in pixels per second
 
-var spd = 0;
-var acc = 0;
+var spd = argument0;
+var acc = argument1;
 
-if argument_count>0
-	spd = argument[0]
-else
-	return;
+var d_xy = sc_shot_move(spd, acc)
 
-if argument_count>1 {
-	acc = argument[1]
-	var s = spd*dTime + (acc*dTime*dTime / 2)
-} else 
-	var s = spd*dTime
+var s = d_xy[2]
+/// Moving with collision
 
-
-var _dx = lengthdir_x(s, direction)
-var _dy = lengthdir_y(s, direction)
-
-/// Collision
-
-if not place_meeting(x+_dx, y+_dy, ob_game_object) {
-	x += _dx
-	y += _dy
-} else {
+if not place_meeting(x+d_xy[0], y+d_xy[1], ob_game_object)
+	return d_xy
+else {
 	var range = 90 // degrees at both sides
 	var step = 12
 	var d = direction
 	for (var i=step; i<=range; i+=step)
 	for (var m = -1; m<=1; m += 2) {
-		_dx = lengthdir_x(s, d+i*m)
-		_dy = lengthdir_y(s, d+i*m)
-		if not place_meeting(x+_dx, y+_dy, ob_game_object) { 
-			x += _dx
-			y += _dy
-			return;
-		}
+		d_xy[0] = lengthdir_x(s, d+i*m)
+		d_xy[1] = lengthdir_y(s, d+i*m)
+		if not place_meeting(x+d_xy[0], y+d_xy[1], ob_game_object)
+			return d_xy;
 	}
+	return [0,0]
 }
-
 
