@@ -1,14 +1,13 @@
 ///@desc Move an object with speed tied to time (Returns new x,y)
 ///@arg Speed in pixels per second
-///@arg Accel in pixels per second
+///@arg AngularSpeed in pixels per second
 
-var spd = argument0
-var acc = argument1
+var spd = argument[0] // linear speed
+var ang = 0           // angular speed
+if argument_count>1
+	var ang = argument[1]
 
-if acc <>0 {
-	var s = spd*dTime + (acc*dTime*dTime / 2)
-} else
-	var s = spd*dTime 
+var s = spd*dTime 
 
 var d_xy;
 d_xy[0] = lengthdir_x(s, direction)

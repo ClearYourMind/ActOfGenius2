@@ -19,7 +19,7 @@ if idea == "goto" {
   okReach = false
   tgAngle = point_direction(parent.x, parent.y, tgX, tgY)
   var d = distance_to_point(tgX, tgY)
-  if d > parent.bodySize 
+  if d > parent.bodySize * 2
     tgSpeed = maxSpeed
   else {  
     tgSpeed = 0  
@@ -45,11 +45,13 @@ else
   angle += _turnSpeed * sign(turnSign)
       
   // set speed
-if (abs(moveSpeed) <= abs(tgSpeed))  
-  moveSpeed += accel * sign(tgSpeed)      
-else  
+var acc = 0;
+if (abs(moveSpeed) <= abs(tgSpeed)) {
+	acc = (accel*dTime*dTime / 2) * 1000
+	moveSpeed += acc * sign(tgSpeed)      
+} else  
 if (abs(moveSpeed) > abs(tgSpeed))  
-  moveSpeed *= power(stopFactor, dTime)
+	moveSpeed *= power(stopFactor, dTime)
   
 if angle<0   then angle = angle+360  
 if angle>360 then angle = angle-360
@@ -64,9 +66,9 @@ image_angle = angle
 image_speed = moveSpeed*dTime / 4
 
 var spd = moveSpeed
-var acc = accel
+var ang = turnSpeed
 with parent {
-	var d_xy = sc_game_object_move(spd, acc);
+	var d_xy = sc_game_object_move(spd, ang)
 	x += d_xy[0]
 	y += d_xy[1]
 }
